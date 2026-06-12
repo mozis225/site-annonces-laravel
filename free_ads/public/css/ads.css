@@ -1,0 +1,214 @@
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+.ads-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.ads-form-container h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.ads-form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.ads-form-container button:hover {
+    background-color: #0056b3;
+}
+
+
+.current-photo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.current-photo p {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+
+.ad-detail {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+
+.ad-detail img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.ad-detail-body {
+    padding: 30px;
+}
+
+.ad-category {
+    display: inline-block;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.ad-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ad-price {
+    font-size: 22px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.ad-location {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.ad-description {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.ad-author {
+    font-size: 13px;
+    color: #999;
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+    margin-bottom: 24px;
+}
+
+.ad-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-edit {
+    padding: 10px 24px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+
+.ads-index-section {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.ads-index-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.ads-index-header h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    font-size: 22px;
+    color: #333;
+}
+
+.btn-post {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-post:hover {
+    background-color: #cc5200;
+}
+
+.btn-submit{
+    width: 100%;
+    padding: 13px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.btn-submit:hover{
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.btn-danger{
+    padding: 10px 24px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-danger:hover{
+    background-color: #b02a37;
+}

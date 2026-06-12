@@ -1,0 +1,158 @@
+@media (max-width: 1024px) {
+
+    
+    .ads-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+    .filters-form {
+        flex-wrap: wrap;
+    }
+
+    .filter-group {
+        min-width: 45%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    
+    nav {
+        flex-direction: column;
+        gap: 12px;
+        padding: 16px 20px;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+    .search-section h1 {
+        font-size: 20px;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .search-bar input {
+        border-radius: 4px;
+    }
+
+    .search-bar button {
+        border-radius: 4px;
+    }
+
+    
+    .filters-section {
+        padding: 16px 20px;
+    }
+
+    .filters-form {
+        flex-direction: column;
+    }
+
+    .filter-group {
+        min-width: 100%;
+    }
+
+    .btn-filter,
+    .btn-reset {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .ads-grid {
+        grid-template-columns: 1fr;
+    }
+
+    
+    .ads-section {
+        padding: 0 12px;
+    }
+
+    .ads-header {
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+    
+    .ads-form-container {
+        margin: 20px auto;
+        padding: 24px 16px;
+    }
+
+    
+    .ad-detail img {
+        height: 220px;
+    }
+
+    .ad-detail-body {
+        padding: 16px;
+    }
+
+    .ad-title {
+        font-size: 18px;
+    }
+
+    .ad-price {
+        font-size: 18px;
+    }
+
+    .ad-actions {
+        flex-direction: column;
+    }
+
+    .btn-edit,
+    .btn-danger {
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .form-container {
+        margin: 20px;
+        padding: 24px 16px;
+    }
+
+    
+    .post-ad a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    
+    .container {
+        padding: 0 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .nav-logo {
+        font-size: 18px;
+    }
+
+    .search-section h1 {
+        font-size: 18px;
+    }
+
+    .ad-card img {
+        height: 140px;
+    }
+
+    .ads-form-container h1,
+    .form-container h1 {
+        font-size: 18px;
+    }
+}

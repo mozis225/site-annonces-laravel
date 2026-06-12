@@ -1,0 +1,181 @@
+.profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.profile-container h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+
+.profile-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-field {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 14px;
+}
+
+.profile-field:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile-label {
+    font-size: 13px;
+    color: #888;
+    min-width: 120px;
+}
+
+.profile-value {
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.profile-actions {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+
+.profile-ads h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.empty-message {
+    color: #888;
+    font-size: 15px;
+}
+
+
+.profile-form {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+
+.ads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.ad-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s;
+    display: block;
+}
+
+.ad-card:hover {
+    transform: translateY(-4px);
+}
+
+.ad-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.ad-card-body {
+    padding: 12px;
+}
+
+.ad-card-category {
+    display: inline-block;
+    font-size: 11px;
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+
+.ad-card-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.ad-card-price {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.ad-card-location {
+    font-size: 12px;
+    color: #888;
+}
+
+
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-field {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .profile-actions {
+        flex-direction: column;
+    }
+
+    .profile-actions .btn,
+    .profile-actions button {
+        width: 100%;
+        text-align: center;
+    }
+}
